@@ -1,16 +1,15 @@
-// src/TodoList.js
 import React, { useState } from 'react';
-import './TodoList.css'; // Импортируйте CSS файл
+import './TodoList.css';
 
 const vibrantColors = [
-  '#ff69b4', // Розовый
-  '#8a2be2', // Лиловый
-  '#ff1493', // Малиновый
-  '#800080', // Бордовый
-  '#ff4500', // Рыжий
-  '#50c878', // Изумрудный
-  '#00ced1', // Голубой
-  '#7b68ee', // Средне-синий
+  '#ff69b4',
+  '#8a2be2',
+  '#ff1493',
+  '#800080',
+  '#ff4500',
+  '#50c878',
+  '#00ced1',
+  '#7b68ee',
 ];
 
 export const TodoList = () => {
@@ -20,7 +19,7 @@ export const TodoList = () => {
     const newTodo = {
       text: todoText,
       completed: false,
-      color: vibrantColors[todos.length % vibrantColors.length], // Присваиваем цвет
+      color: vibrantColors[todos.length % vibrantColors.length],
     };
     setTodos([...todos, newTodo]);
   };
@@ -42,7 +41,7 @@ export const TodoList = () => {
             onClick={() => toggleTodo(index)}
             style={{
               textDecoration: todo.completed ? 'line-through' : 'none',
-              color: todo.color, // Применяем цвет к тексту
+              color: todo.color,
               borderColor: todo.color,
             }}
           >
