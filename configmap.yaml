@@ -7,3 +7,17 @@ data:
     <html>
     <h1>Hello, World!</h1>
     </html>
+  styles.css: |
+    body {
+      background: white;
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      height: 100%;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      font-size:30px;
+      color: rgb(79, 57, 77);
+    }
