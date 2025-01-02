@@ -1,5 +1,3 @@
-/* src/TodoList.css */
-
 .todo-container {
   max-width: 600px;
   margin: 0 auto;
@@ -10,16 +8,16 @@
 }
 
 .gradient-text {
-  font-size: 2rem; /* Размер шрифта */
+  font-size: 2rem;
   background: linear-gradient(270deg,
-    #ff69b4, /* Розовый */
-    #8a2be2, /* Лиловый */
-    #ff1493, /* Малиновый */
-    #800080, /* Бордовый */
-    #ff4500, /* Рыжий */
-    #50c878, /* Изумрудный */
-    #00ced1, /* Голубой */
-    #7b68ee  /* Средне-синий */
+    #ff69b4,
+    #8a2be2,
+    #ff1493,
+    #800080,
+    #ff4500,
+    #50c878,
+    #00ced1,
+    #7b68ee
   );
   background-size: 400% 400%;
   -webkit-background-clip: text;
@@ -81,14 +79,14 @@
 }
 
 .todo-input:focus {
-  border-color: #7b68ee; /* Средне-синий */
+  border-color: #7b68ee;
 }
 
 .todo-button {
   padding: 10px 20px;
   border: none;
   border-radius: 0 5px 5px 0;
-  background-color: #7b68ee; /* Средне-синий */
+  background-color: #7b68ee;
   color: white;
   font-size: 1rem;
   cursor: pointer;
